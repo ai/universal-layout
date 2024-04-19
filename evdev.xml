@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>universal_ru</name>
+        <shortDescription>ru</shortDescription>
+        <description>Russian Universal</description>
+        <languageList>
+          <iso639Id>rus</iso639Id>
+        </languageList>
+      </configItem>
+    </layout>
+    <layout>
+      <configItem>
+        <name>universal_en</name>
+        <shortDescription>en</shortDescription>
+        <description>English/Spanish Universal</description>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+          <iso639Id>spa</iso639Id>
+        </languageList>
+      </configItem>
+    </layout>
+  </layoutList>
+</xkbConfigRegistry>
