@@ -4,60 +4,60 @@ xkb_symbols "base" {
     name[Group1]= "English/Spanish Universal";
 
     // 1st keyboard row
-    key <TLDE> { [ grave, asciitilde,  approxeq,      NoSymbol ] };
-    key <AE01> { [ 1,     exclam,      exclamdown,    U0301    ] };
-    key <AE02> { [ 2,     at,          twosuperior,   onehalf ] };
-    key <AE03> { [ 3,     numbersign,  threesuperior, onethird ] };
-    key <AE04> { [ 4,     dollar,      EuroSign,      onequarter ] };
-    key <AE05> { [ 5,     percent,     U2030,         NoSymbol ] };
-    key <AE06> { [ 6,     asciicircum, uparrow,       NoSymbol ] };
+    key <TLDE> { [ grave, asciitilde,  approxeq,      NoSymbol     ] };
+    key <AE01> { [ 1,     exclam,      exclamdown,    U0301        ] };
+    key <AE02> { [ 2,     at,          twosuperior,   onehalf      ] };
+    key <AE03> { [ 3,     numbersign,  threesuperior, onethird     ] };
+    key <AE04> { [ 4,     dollar,      EuroSign,      onequarter   ] };
+    key <AE05> { [ 5,     percent,     U2030,         NoSymbol     ] };
+    key <AE06> { [ 6,     asciicircum, uparrow,       NoSymbol     ] };
     key <AE07> { [ 7,     ampersand,   ampersand,     questiondown ] };
-    key <AE08> { [ 8,     asterisk,    infinity,      NoSymbol ] };
-    key <AE09> { [ 9,     parenleft,   leftarrow,     NoSymbol ] };
-    key <AE10> { [ 0,     parenright,  rightarrow,    NoSymbol ] };
-    key <AE11> { [ minus, underscore,  emdash,        endash ] };
-    key <AE12> { [ equal, plus,        notequal,      plusminus ] };
+    key <AE08> { [ 8,     asterisk,    infinity,      NoSymbol     ] };
+    key <AE09> { [ 9,     parenleft,   leftarrow,     NoSymbol     ] };
+    key <AE10> { [ 0,     parenright,  rightarrow,    NoSymbol     ] };
+    key <AE11> { [ minus, underscore,  emdash,        endash       ] };
+    key <AE12> { [ equal, plus,        notequal,      plusminus    ] };
 
     // 2nd keyboard row
-    key <AD01> { [ q,            Q,          NoSymbol,     NoSymbol ] };
-    key <AD02> { [ w,            W,          NoSymbol,     NoSymbol ] };
-    key <AD03> { [ e,            E,          eacute,       Eacute ] };
-    key <AD04> { [ r,            R,          registered,   NoSymbol ] };
-    key <AD05> { [ t,            T,          trademark,    NoSymbol ] };
+    key <AD01> { [ q,            Q,          NoSymbol,     NoSymbol   ] };
+    key <AD02> { [ w,            W,          NoSymbol,     NoSymbol   ] };
+    key <AD03> { [ e,            E,          eacute,       Eacute     ] };
+    key <AD04> { [ r,            R,          registered,   NoSymbol   ] };
+    key <AD05> { [ t,            T,          trademark,    NoSymbol   ] };
     key <AD06> { [ y,            Y,          udiaeresis,   Udiaeresis ] };
-    key <AD07> { [ u,            U,          uacute,       Uacute ] };
-    key <AD08> { [ i,            I,          iacute,       Iacute ] };
-    key <AD09> { [ o,            O,          oacute,       Oacute ] };
-    key <AD10> { [ p,            P,          ellipsis,     NoSymbol ] };
-    key <AD11> { [ bracketleft,  braceleft,  bracketleft,  braceleft ] };
+    key <AD07> { [ u,            U,          uacute,       Uacute     ] };
+    key <AD08> { [ i,            I,          iacute,       Iacute     ] };
+    key <AD09> { [ o,            O,          oacute,       Oacute     ] };
+    key <AD10> { [ p,            P,          ellipsis,     NoSymbol   ] };
+    key <AD11> { [ bracketleft,  braceleft,  bracketleft,  braceleft  ] };
     key <AD12> { [ bracketright, braceright, bracketright, braceright ] };
     key <BKSL> { [ backslash,    bar,        dead_grave,   dead_breve ]	};
 
     // 3rd keyboard row
-    key <AC01> { [ a,          A,        aacute,               Aacute ] };
-    key <AC02> { [ s,          S,        NoSymbol,             NoSymbol ]	};
-    key <AC03> { [ d,          D,        degree,               division ] };
-    key <AC04> { [ f,          F,        NoSymbol,             ordfeminine ] };
-    key <AC05> { [ g,          G,        NoSymbol,             NoSymbol ]	};
-    key <AC06> { [ h,          H,        U20BD,                NoSymbol ] };
-    key <AC07> { [ j,          J,        doublelowquotemark,   singlelowquotemark ] };
-    key <AC08> { [ k,          K,        leftdoublequotemark,  leftsinglequotemark ] };
+    key <AC01> { [ a,          A,        aacute,               Aacute               ] };
+    key <AC02> { [ s,          S,        NoSymbol,             NoSymbol             ] };
+    key <AC03> { [ d,          D,        degree,               division             ] };
+    key <AC04> { [ f,          F,        NoSymbol,             ordfeminine          ] };
+    key <AC05> { [ g,          G,        NoSymbol,             NoSymbol             ] };
+    key <AC06> { [ h,          H,        U20BD,                NoSymbol             ] };
+    key <AC07> { [ j,          J,        doublelowquotemark,   singlelowquotemark   ] };
+    key <AC08> { [ k,          K,        leftdoublequotemark,  leftsinglequotemark  ] };
     key <AC09> { [ l,          L,        rightdoublequotemark, rightsinglequotemark ] };
-    key <AC10> { [ semicolon,  colon,    leftsinglequotemark,  minutes ] };
-    key <AC11> { [ apostrophe, quotedbl, rightsinglequotemark, seconds ] };
-    key <RTRN> { [ Return,     Return,   U21B5,                U23CE ] };
+    key <AC10> { [ semicolon,  colon,    leftsinglequotemark,  minutes              ] };
+    key <AC11> { [ apostrophe, quotedbl, rightsinglequotemark, seconds              ] };
+    key <RTRN> { [ Return,     Return,   U21B5,                U23CE                ] };
 
     // 4th keyboard row
-    key <AB01> { [ z,      Z,        U0300,          NoSymbol ] };
-    key <AB02> { [ x,      X,        multiply,       periodcentered ] };
-    key <AB03> { [ c,      C,        ccedilla,       Ccedilla ] };
-    key <AB04> { [ v,      V,        downarrow,      U25CA ] };
-    key <AB05> { [ b,      B,        NoSymbol,       NoSymbol ] };
-    key <AB06> { [ n,      N,        U00F1,          U00D1 ] };
-    key <AB07> { [ m,      M,        U2212,          masculine ] };
-    key <AB08> { [ comma,  less,     guillemotleft,  lessthanequal ] };
+    key <AB01> { [ z,      Z,        U0300,          NoSymbol         ] };
+    key <AB02> { [ x,      X,        multiply,       periodcentered   ] };
+    key <AB03> { [ c,      C,        ccedilla,       Ccedilla         ] };
+    key <AB04> { [ v,      V,        downarrow,      U25CA            ] };
+    key <AB05> { [ b,      B,        NoSymbol,       NoSymbol         ] };
+    key <AB06> { [ n,      N,        U00F1,          U00D1            ] };
+    key <AB07> { [ m,      M,        U2212,          masculine        ] };
+    key <AB08> { [ comma,  less,     guillemotleft,  lessthanequal    ] };
     key <AB09> { [ period, greater,  guillemotright, greaterthanequal ] };
-    key <AB10> { [ slash,  question, questiondown,   NoSymbol ] };
+    key <AB10> { [ slash,  question, questiondown,   NoSymbol         ] };
 
     // 5th keyboard row
     key <SPCE> { [ space, space, nobreakspace, U202F ] };
