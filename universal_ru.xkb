@@ -7,10 +7,10 @@ xkb_symbols "base" {
     key <TLDE> { [ Cyrillic_io, Cyrillic_IO, approxeq,      NoSymbol     ] };
     key <AE01> { [ 1,           exclam,      exclamdown,    U0301        ] };
     key <AE02> { [ 2,           at,          twosuperior,   onehalf      ] };
-    key <AE03> { [ 3,           numbersign,  threesuperior, onethird     ] };
+    key <AE03> { [ 3,           numerosign,  threesuperior, onethird     ] };
     key <AE04> { [ 4,           dollar,      EuroSign,      onequarter   ] };
     key <AE05> { [ 5,           percent,     U2030,         NoSymbol     ] };
-    key <AE06> { [ 6,           asciicircum, uparrow,       NoSymbol     ] };
+    key <AE06> { [ 6,           colon,       uparrow,       NoSymbol     ] };
     key <AE07> { [ 7,           ampersand,   ampersand,     questiondown ] };
     key <AE08> { [ 8,           asterisk,    infinity,      NoSymbol     ] };
     key <AE09> { [ 9,           parenleft,   leftarrow,     NoSymbol     ] };
