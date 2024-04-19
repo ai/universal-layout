@@ -4,19 +4,19 @@ xkb_symbols "base" {
     name[Group1]= "Russian Universal";
 
     // 1st keyboard row
-    key <TLDE> { [ Cyrillic_io, Cyrillic_IO, approxeq,   NoSymbol ] };
-    key <AE01> { [ 1,           exclam,      exclamdown, U0301    ] };
-    key <AE02> { [ 2,           at,          onehalf,    twosuperior ] };
-    key <AE03> { [ 3,           numbersign,  onethird,   threesuperior ] };
-    key <AE04> { [ 4,           dollar,      onequarter, NoSymbol ] };
-    key <AE05> { [ 5,           percent,     U2030,      NoSymbol ] };
-    key <AE06> { [ 6,           asciicircum, uparrow,    NoSymbol ] };
-    key <AE07> { [ 7,           ampersand,   ampersand,  questiondown ] };
-    key <AE08> { [ 8,           asterisk,    infinity,   NoSymbol ] };
-    key <AE09> { [ 9,           parenleft,   leftarrow,  NoSymbol ] };
-    key <AE10> { [ 0,           parenright,  rightarrow, NoSymbol ] };
-    key <AE11> { [ minus,       underscore,  emdash,     endash ] };
-    key <AE12> { [ Cyrillic_be, Cyrillic_BE, notequal,   plusminus ] };
+    key <TLDE> { [ Cyrillic_io, Cyrillic_IO, approxeq,      NoSymbol ] };
+    key <AE01> { [ 1,           exclam,      exclamdown,    U0301    ] };
+    key <AE02> { [ 2,           at,          twosuperior,   onehalf ] };
+    key <AE03> { [ 3,           numbersign,  threesuperior, onethird ] };
+    key <AE04> { [ 4,           dollar,      EuroSign,      onequarter ] };
+    key <AE05> { [ 5,           percent,     U2030,         NoSymbol ] };
+    key <AE06> { [ 6,           asciicircum, uparrow,       NoSymbol ] };
+    key <AE07> { [ 7,           ampersand,   ampersand,     questiondown ] };
+    key <AE08> { [ 8,           asterisk,    infinity,      NoSymbol ] };
+    key <AE09> { [ 9,           parenleft,   leftarrow,     NoSymbol ] };
+    key <AE10> { [ 0,           parenright,  rightarrow,    NoSymbol ] };
+    key <AE11> { [ minus,       underscore,  emdash,        endash ] };
+    key <AE12> { [ Cyrillic_be, Cyrillic_BE, notequal,      plusminus ] };
 
     // 2nd keyboard row
     key <AD01> { [ Cyrillic_shorti,   Cyrillic_SHORTI,   NoSymbol,     NoSymbol ] };
@@ -24,7 +24,7 @@ xkb_symbols "base" {
     key <AD03> { [ Cyrillic_u,        Cyrillic_U,        eacute,       Eacute ] };
     key <AD04> { [ Cyrillic_ka,       Cyrillic_KA,       registered,   NoSymbol ] };
     key <AD05> { [ Cyrillic_ie,       Cyrillic_IE,       trademark,    NoSymbol ] };
-    key <AD06> { [ Cyrillic_en,       Cyrillic_EN,       yen,          NoSymbol ] };
+    key <AD06> { [ Cyrillic_en,       Cyrillic_EN,       udiaeresis,   Udiaeresis ] };
     key <AD07> { [ Cyrillic_ghe,      Cyrillic_GHE,      U0308,        NoSymbol ] };
     key <AD08> { [ Cyrillic_sha,      Cyrillic_SHA,      iacute,       Iacute ] };
     key <AD09> { [ Cyrillic_shcha,    Cyrillic_SHCHA,    oacute,       Oacute ] };
@@ -64,18 +64,18 @@ xkb_symbols "base" {
 };
 
 // Other symbols
-// U+2030 PER MILLE SIGN
-// U+0300 COMBINING GRAVE ACCENT
-// U+0301 COMBINING ACUTE ACCENT
-// U+20BD RUBLE SIGN
-// U+25CA LOZENGE
-// U+2212 MINUS SIGN
-// U+202F NARROW NO-BREAK SPACE
-// U+0308 COMBINING DIAERESIS
-// U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS
-// U+23CE RETURN SYMBOL
-// U+00F1 LATIN SMALL LETTER N WITH TILDE
-// U+00D1 LATIN CAPITAL LETTER N WITH TILDE
+// U2030 PER MILLE SIGN
+// U0300 COMBINING GRAVE ACCENT
+// U0301 COMBINING ACUTE ACCENT
+// U20BD RUBLE SIGN
+// U25CA LOZENGE
+// U2212 MINUS SIGN
+// U202F NARROW NO-BREAK SPACE
+// U0308 COMBINING DIAERESIS
+// U21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS
+// U23CE RETURN SYMBOL
+// U00F1 LATIN SMALL LETTER N WITH TILDE
+// U00D1 LATIN CAPITAL LETTER N WITH TILDE
 
 // Symbol names:
 // https://cgit.freedesktop.org/xorg/proto/x11proto/tree/keysymdef.h
