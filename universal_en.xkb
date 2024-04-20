@@ -5,7 +5,7 @@ xkb_symbols "base" {
 
     // 1st keyboard row
     key <TLDE> { [ grave, asciitilde,  approxeq,      dead_grave ] };
-    key <AE01> { [ 1,     exclam,      exclamdown,    U0301      ] };
+    key <AE01> { [ 1,     exclam,      exclamdown,    dead_acute ] };
     key <AE02> { [ 2,     at,          twosuperior,   onehalf    ] };
     key <AE03> { [ 3,     numbersign,  threesuperior, onethird   ] };
     key <AE04> { [ 4,     dollar,      EuroSign,      onequarter ] };
