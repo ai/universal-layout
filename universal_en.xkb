@@ -4,7 +4,7 @@ xkb_symbols "base" {
     name[Group1]= "English/Spanish Universal";
 
     // 1st keyboard row
-    key <TLDE> { [ grave, asciitilde,  approxeq,      NoSymbol     ] };
+    key <TLDE> { [ grave, asciitilde,  approxeq,      dead_grave   ] };
     key <AE01> { [ 1,     exclam,      exclamdown,    U0301        ] };
     key <AE02> { [ 2,     at,          twosuperior,   onehalf      ] };
     key <AE03> { [ 3,     numbersign,  threesuperior, onethird     ] };
@@ -31,7 +31,7 @@ xkb_symbols "base" {
     key <AD10> { [ p,            P,          ellipsis,     NoSymbol   ] };
     key <AD11> { [ bracketleft,  braceleft,  bracketleft,  braceleft  ] };
     key <AD12> { [ bracketright, braceright, bracketright, braceright ] };
-    key <BKSL> { [ backslash,    bar,        dead_grave,   dead_breve ]	};
+    key <BKSL> { [ backslash,    bar,        NoSymbol,     NoSymbol ]	};
 
     // 3rd keyboard row
     key <AC01> { [ a,          A,        aacute,               Aacute               ] };

@@ -4,7 +4,7 @@ xkb_symbols "base" {
     name[Group1]= "Russian Universal";
 
     // 1st keyboard row
-    key <TLDE> { [ Cyrillic_io, Cyrillic_IO, approxeq,      NoSymbol     ] };
+    key <TLDE> { [ Cyrillic_io, Cyrillic_IO, approxeq,      dead_grave   ] };
     key <AE01> { [ 1,           exclam,      exclamdown,    U0301        ] };
     key <AE02> { [ 2,           at,          twosuperior,   onehalf      ] };
     key <AE03> { [ 3,           numerosign,  threesuperior, onethird     ] };
@@ -31,7 +31,7 @@ xkb_symbols "base" {
     key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,     NoSymbol   ] };
     key <AD11> { [ Cyrillic_ha,       Cyrillic_HA,       bracketleft,  braceleft  ] };
     key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright, braceright ] };
-    key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       dead_grave,   dead_breve ] };
+    key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       NoSymbol,   NoSymbol ] };
 
     // 3rd keyboard row
     key <AC01> { [ Cyrillic_ef,   Cyrillic_EF,   aacute,               Aacute               ] };
