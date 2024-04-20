@@ -16,7 +16,7 @@
       <configItem>
         <name>universal_en</name>
         <shortDescription>en</shortDescription>
-        <description>English/Spanish Universal</description>
+        <description>English/Spanish/Catalan Universal</description>
         <languageList>
           <iso639Id>eng</iso639Id>
           <iso639Id>spa</iso639Id>
