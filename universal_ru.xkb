@@ -16,7 +16,7 @@ xkb_symbols "base" {
     key <AE09> { [ 9,           parenleft,   leftarrow,     NoSymbol     ] };
     key <AE10> { [ 0,           parenright,  rightarrow,    NoSymbol     ] };
     key <AE11> { [ minus,       underscore,  emdash,        endash       ] };
-    key <AE12> { [ Cyrillic_be, Cyrillic_BE, notequal,      plusminus    ] };
+    key <AE12> { [ Cyrillic_yu, Cyrillic_YU, notequal,      plusminus    ] };
 
     // 2nd keyboard row
     key <AD01> { [ Cyrillic_shorti,   Cyrillic_SHORTI,   NoSymbol,     NoSymbol   ] };
@@ -31,7 +31,7 @@ xkb_symbols "base" {
     key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,     NoSymbol   ] };
     key <AD11> { [ Cyrillic_ha,       Cyrillic_HA,       bracketleft,  braceleft  ] };
     key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright, braceright ] };
-    key <BKSL> { [ Cyrillic_yu,       Cyrillic_YU,       dead_grave,   dead_breve ]	};
+    key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       dead_grave,   dead_breve ] };
 
     // 3rd keyboard row
     key <AC01> { [ Cyrillic_ef,   Cyrillic_EF,   aacute,               Aacute               ] };
