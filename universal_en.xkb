@@ -1,7 +1,7 @@
 default partial alphanumeric_keys
 xkb_symbols "base" {
 
-    name[Group1]= "English/Spanish Universal";
+    name[Group1]= "English/Spanish/Catalan Universal";
 
     // 1st keyboard row
     key <TLDE> { [ grave, asciitilde,  approxeq,      dead_grave   ] };

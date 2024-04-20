@@ -20,6 +20,7 @@
         <languageList>
           <iso639Id>eng</iso639Id>
           <iso639Id>spa</iso639Id>
+          <iso639Id>cat</iso639Id>
         </languageList>
       </configItem>
     </layout>

@@ -11,7 +11,7 @@ curl -o ~/.config/xkb/rules/evdev.xml https://raw.githubusercontent.com/ai/unive
 
 Перезапустите систему.
 
-Выберите `Russian Universal` и `English/Spanish Universal` в настройках клавиатуры.
+Выберите `Russian Universal` и `English/Spanish/Catalan Universal` в настройках клавиатуры.
 
 Мы также рекомендуем выставить немодальное переключение раскладки — <kbd>CapsLock</kbd> всегда на английский, <kbd>CapsLock</kbd>+<kbd>Shift</kbd> всегда на русский.
 
