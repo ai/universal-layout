@@ -17,6 +17,21 @@
 
 <img src="./layout-special.png" alt="Универсальная раскладка Ситника. Специальные символы.">
 
+
+## Мотивация
+
+Альтернативные раскладки клавиатуры — не для всех. Если вы не находите себя
+в списке ниже, то она вам не нужна.
+
+1. Вы часто замечаете, что переключаетесь на английский,
+   чтобы ввести пунктуацию.
+2. Вы используете только свои клавиатуры для ввода русского текста —
+   например, так как живёте заграницей.
+3. Но вам бы хотелось сохранить возможность с ходу пользоваться любой
+   английской клавиатурой.
+4. Вам иногда нужно вводить испанский или каталонский текст.
+
+
 ## Установка
 
 Установка не меняет глобальные файлы. Всё ставиться в `~/.config/` в директории
@@ -27,17 +42,13 @@ mkdir -p ~/.config/xkb/symbols/ ~/.config/xkb/rules/
 curl -o ~/.config/xkb/symbols/universal_en https://raw.githubusercontent.com/ai/universal-layout/main/universal_en.xkb
 curl -o ~/.config/xkb/symbols/universal_ru https://raw.githubusercontent.com/ai/universal-layout/main/universal_ru.xkb
 curl -o ~/.config/xkb/rules/evdev.xml https://raw.githubusercontent.com/ai/universal-layout/main/evdev.xml
+dconf write /org/gnome/desktop/input-sources/xkb-options "['grp_led:caps', 'lv3:ralt_switch', 'grp:shift_caps_switch']"
 ```
 
 Перезапустите систему.
 
 Выберите `Russian Universal` и `English/Spanish/Catalan Universal` в настройках клавиатуры.
 
-Мы также рекомендуем выставить немодальное переключение раскладки — <kbd>CapsLock</kbd> всегда на английский, <kbd>CapsLock</kbd>+<kbd>Shift</kbd> всегда на русский.
-
-```sh
-dconf write /org/gnome/desktop/input-sources/xkb-options "['grp_led:caps', 'lv3:ralt_switch', 'grp:shift_caps_switch']"
-```
 
 ## Альтернативы
 
