@@ -48,10 +48,10 @@ xkb_symbols "base" {
     key <RTRN> { [ Return,        Return,        U21B5,                U23CE                ] };
 
     // 4th keyboard row
-    key <AB01> { [ Cyrillic_ya,       Cyrillic_YA,       U0300,          NoSymbol         ] };
+    key <AB01> { [ Cyrillic_ya,       Cyrillic_YA,       NoSymbol,       NoSymbol         ] };
     key <AB02> { [ Cyrillic_che,      Cyrillic_CHE,      multiply,       periodcentered   ] };
     key <AB03> { [ Cyrillic_es,       Cyrillic_ES,       ccedilla,       Ccedilla         ] };
-    key <AB04> { [ Cyrillic_em,       Cyrillic_EM,       downarrow,      U25CA            ] };
+    key <AB04> { [ Cyrillic_em,       Cyrillic_EM,       downarrow,      NoSymbol         ] };
     key <AB05> { [ Cyrillic_i,        Cyrillic_I,        NoSymbol,       NoSymbol         ] };
     key <AB06> { [ Cyrillic_te,       Cyrillic_TE,       U00F1,          U00D1            ] };
     key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN, U2212,          masculine        ] };
@@ -65,10 +65,7 @@ xkb_symbols "base" {
 
 // Other symbols
 // U2030 PER MILLE SIGN
-// U0300 COMBINING GRAVE ACCENT
-// U0301 COMBINING ACUTE ACCENT
 // U20BD RUBLE SIGN
-// U25CA LOZENGE
 // U2212 MINUS SIGN
 // U202F NARROW NO-BREAK SPACE
 // U0308 COMBINING DIAERESIS
