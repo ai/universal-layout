@@ -20,7 +20,7 @@ xkb_symbols "base" {
 
     // 2nd keyboard row
     key <AD01> { [ Cyrillic_shorti,   Cyrillic_SHORTI,   NoSymbol,     NoSymbol   ] };
-    key <AD02> { [ Cyrillic_tse,      Cyrillic_SHORTI,   NoSymbol,     NoSymbol   ] };
+    key <AD02> { [ Cyrillic_tse,      Cyrillic_TSE,      NoSymbol,     NoSymbol   ] };
     key <AD03> { [ Cyrillic_u,        Cyrillic_U,        eacute,       Eacute     ] };
     key <AD04> { [ Cyrillic_ka,       Cyrillic_KA,       registered,   NoSymbol   ] };
     key <AD05> { [ Cyrillic_ie,       Cyrillic_IE,       trademark,    NoSymbol   ] };
