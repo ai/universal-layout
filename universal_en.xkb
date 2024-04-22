@@ -16,7 +16,7 @@ xkb_symbols "base" {
     key <AE09> { [ 9,     parenleft,   leftarrow,     NoSymbol   ] };
     key <AE10> { [ 0,     parenright,  rightarrow,    NoSymbol   ] };
     key <AE11> { [ minus, underscore,  emdash,        endash     ] };
-    key <AE12> { [ equal, plus,        notequal,      plus       ] };
+    key <AE12> { [ equal, plus,        equal,         plus       ] };
 
     // 2nd keyboard row
     key <AD01> { [ q,            Q,          NoSymbol,     NoSymbol   ] };
