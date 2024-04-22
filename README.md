@@ -11,9 +11,11 @@
 * Можно вводить **испанский** и **каталонский** текст на английской
   ANSI-клавиатуре. Включая ¿, ¡, l·l.
 
-<img src="./layout.png" alt="Универсальная раскладка Ситника. Буквы.">
+<img src="./layout.png"
+     alt="Универсальная раскладка Ситника. Буквы.">
 
-<img src="./layout-special.png" alt="Универсальная раскладка Ситника. Специальные символы.">
+<img src="./layout-special.png"
+     alt="Универсальная раскладка Ситника. Специальные символы.">
 
 
 ## Мотивация
@@ -45,7 +47,8 @@ dconf write /org/gnome/desktop/input-sources/xkb-options "['grp_led:caps', 'lv3:
 
 Перезапустите систему.
 
-Выберите `Russian Universal` и `English/Spanish/Catalan Universal` в настройках клавиатуры.
+Выберите `Russian Universal` и `English/Spanish/Catalan Universal`
+в настройках клавиатуры.
 
 
 ## Альтернативы
@@ -53,4 +56,5 @@ dconf write /org/gnome/desktop/input-sources/xkb-options "['grp_led:caps', 'lv3:
 Проект вдохновлялся проектами — вы можете взять их? если они подходят вам лучше:
 * [Раскладка Никиты Широкова](https://github.com/braindefender/universal-layout)
 * [Раскладка Никиты Прокопова](https://github.com/tonsky/Universal-Layout)
-* Встроенная в Линукс раскладка `misc:typo`, копия [Раскладки Бирмана](https://ilyabirman.ru/typography-layout/)
+* Встроенная в Линукс раскладка `misc:typo`, копия
+  [Раскладки Бирмана](https://ilyabirman.ru/typography-layout/)
