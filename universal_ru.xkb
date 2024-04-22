@@ -28,7 +28,7 @@ xkb_symbols "base" {
     key <AD07> { [ Cyrillic_ghe,      Cyrillic_GHE,      U0308,        NoSymbol   ] };
     key <AD08> { [ Cyrillic_sha,      Cyrillic_SHA,      iacute,       Iacute     ] };
     key <AD09> { [ Cyrillic_shcha,    Cyrillic_SHCHA,    oacute,       Oacute     ] };
-    key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,     NoSymbol   ] };
+    key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,     plusminus  ] };
     key <AD11> { [ Cyrillic_ha,       Cyrillic_HA,       bracketleft,  braceleft  ] };
     key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright, braceright ] };
     key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       NoSymbol,     NoSymbol   ] };
@@ -57,7 +57,7 @@ xkb_symbols "base" {
     key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN, U2212,          masculine        ] };
     key <AB08> { [ comma,             less,              guillemotleft,  lessthanequal    ] };
     key <AB09> { [ period,            greater,           guillemotright, greaterthanequal ] };
-    key <AB10> { [ slash,             question,          questiondown,   NoSymbol         ] };
+    key <AB10> { [ slash,             question,          questiondown,   notequal         ] };
 
     // 5th keyboard row
     key <SPCE> { [ space, space, nobreakspace, U202F ] };
