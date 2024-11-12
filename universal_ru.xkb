@@ -9,7 +9,7 @@ xkb_symbols "base" {
     key <AE02> { [ 2,           at,          twosuperior,   onehalf    ] };
     key <AE03> { [ 3,           numerosign,  threesuperior, onethird   ] };
     key <AE04> { [ 4,           dollar,      EuroSign,      onequarter ] };
-    key <AE05> { [ 5,           percent,     U2030,         NoSymbol   ] };
+    key <AE05> { [ 5,           percent,     EuroSign,      NoSymbol   ] };
     key <AE06> { [ 6,           colon,       uparrow,       NoSymbol   ] };
     key <AE07> { [ 7,           ampersand,   ampersand,     NoSymbol   ] };
     key <AE08> { [ 8,           asterisk,    infinity,      NoSymbol   ] };
