@@ -19,19 +19,19 @@ xkb_symbols "base" {
     key <AE12> { [ Cyrillic_yu, Cyrillic_YU, equal,         plus  ] };
 
     // 2nd keyboard row
-    key <AD01> { [ Cyrillic_shorti,   Cyrillic_SHORTI,   NoSymbol,     NoSymbol   ] };
-    key <AD02> { [ Cyrillic_tse,      Cyrillic_TSE,      NoSymbol,     NoSymbol   ] };
-    key <AD03> { [ Cyrillic_u,        Cyrillic_U,        eacute,       Eacute     ] };
-    key <AD04> { [ Cyrillic_ka,       Cyrillic_KA,       registered,   NoSymbol   ] };
-    key <AD05> { [ Cyrillic_ie,       Cyrillic_IE,       trademark,    NoSymbol   ] };
-    key <AD06> { [ Cyrillic_en,       Cyrillic_EN,       udiaeresis,   Udiaeresis ] };
-    key <AD07> { [ Cyrillic_ghe,      Cyrillic_GHE,      U0308,        NoSymbol   ] };
-    key <AD08> { [ Cyrillic_sha,      Cyrillic_SHA,      iacute,       Iacute     ] };
-    key <AD09> { [ Cyrillic_shcha,    Cyrillic_SHCHA,    oacute,       Oacute     ] };
-    key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,     plusminus  ] };
-    key <AD11> { [ Cyrillic_ha,       Cyrillic_HA,       bracketleft,  braceleft  ] };
-    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright, braceright ] };
-    key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       NoSymbol,     NoSymbol   ] };
+    key <AD01> { [ Cyrillic_shorti,   Cyrillic_SHORTI,   NoSymbol,       NoSymbol       ] };
+    key <AD02> { [ Cyrillic_tse,      Cyrillic_TSE,      NoSymbol,       NoSymbol       ] };
+    key <AD03> { [ Cyrillic_u,        Cyrillic_U,        eacute,         Eacute         ] };
+    key <AD04> { [ Cyrillic_ka,       Cyrillic_KA,       registered,     NoSymbol       ] };
+    key <AD05> { [ Cyrillic_ie,       Cyrillic_IE,       trademark,      NoSymbol       ] };
+    key <AD06> { [ Cyrillic_en,       Cyrillic_EN,       dead_diaeresis, dead_diaeresis ] };
+    key <AD07> { [ Cyrillic_ghe,      Cyrillic_GHE,      U0308,          NoSymbol       ] };
+    key <AD08> { [ Cyrillic_sha,      Cyrillic_SHA,      iacute,         Iacute         ] };
+    key <AD09> { [ Cyrillic_shcha,    Cyrillic_SHCHA,    oacute,         Oacute         ] };
+    key <AD10> { [ Cyrillic_ze,       Cyrillic_ZE,       ellipsis,       plusminus      ] };
+    key <AD11> { [ Cyrillic_ha,       Cyrillic_HA,       bracketleft,    braceleft      ] };
+    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, bracketright,   braceright     ] };
+    key <BKSL> { [ Cyrillic_be,       Cyrillic_BE,       NoSymbol,       NoSymbol       ] };
 
     // 3rd keyboard row
     key <AC01> { [ Cyrillic_ef,   Cyrillic_EF,   aacute,               Aacute               ] };

@@ -19,19 +19,19 @@ xkb_symbols "base" {
     key <AE12> { [ equal, plus,        equal,         plus       ] };
 
     // 2nd keyboard row
-    key <AD01> { [ q,            Q,          NoSymbol,     NoSymbol   ] };
-    key <AD02> { [ w,            W,          NoSymbol,     NoSymbol   ] };
-    key <AD03> { [ e,            E,          eacute,       Eacute     ] };
-    key <AD04> { [ r,            R,          registered,   NoSymbol   ] };
-    key <AD05> { [ t,            T,          trademark,    NoSymbol   ] };
-    key <AD06> { [ y,            Y,          udiaeresis,   Udiaeresis ] };
-    key <AD07> { [ u,            U,          uacute,       Uacute     ] };
-    key <AD08> { [ i,            I,          iacute,       Iacute     ] };
-    key <AD09> { [ o,            O,          oacute,       Oacute     ] };
-    key <AD10> { [ p,            P,          ellipsis,     plusminus  ] };
-    key <AD11> { [ bracketleft,  braceleft,  bracketleft,  braceleft  ] };
-    key <AD12> { [ bracketright, braceright, bracketright, braceright ] };
-    key <BKSL> { [ backslash,    bar,        NoSymbol,     NoSymbol   ] };
+    key <AD01> { [ q,            Q,          NoSymbol,       NoSymbol       ] };
+    key <AD02> { [ w,            W,          NoSymbol,       NoSymbol       ] };
+    key <AD03> { [ e,            E,          eacute,         Eacute         ] };
+    key <AD04> { [ r,            R,          registered,     NoSymbol       ] };
+    key <AD05> { [ t,            T,          trademark,      NoSymbol       ] };
+    key <AD06> { [ y,            Y,          dead_diaeresis, dead_diaeresis ] };
+    key <AD07> { [ u,            U,          uacute,         Uacute         ] };
+    key <AD08> { [ i,            I,          iacute,         Iacute         ] };
+    key <AD09> { [ o,            O,          oacute,         Oacute         ] };
+    key <AD10> { [ p,            P,          ellipsis,       plusminus      ] };
+    key <AD11> { [ bracketleft,  braceleft,  bracketleft,    braceleft      ] };
+    key <AD12> { [ bracketright, braceright, bracketright,   braceright     ] };
+    key <BKSL> { [ backslash,    bar,        NoSymbol,       NoSymbol       ] };
 
     // 3rd keyboard row
     key <AC01> { [ a,          A,        aacute,               Aacute               ] };
